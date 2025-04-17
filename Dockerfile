@@ -7,4 +7,4 @@ RUN apt-get update && \
     rm -rf /var/www/html/*
 COPY . /var/www/html/
 EXPOSE 80
-CMD ["apachectl", "-D", "FOREGROUND"
+CMD ["apachectl", "-D", "FOREGROUND"]
